@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { FaShoppingBasket } from "react-icons/fa";
 
 const NavbarContainer = styled.div`
-    background-color:gray;
+    background-color:#000;
     color:#ffff;
     width:100%;
     height:50px;
@@ -13,7 +13,6 @@ const NavbarContainer = styled.div`
 `
 const NavLink = styled.a`
     padding:6px 12px;
-
     &:hover{
         cursor:pointer;
     }
