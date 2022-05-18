@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useContext, useEffect } from "react";
 import styled from "styled-components";
 import { FaPlusCircle } from "react-icons/fa";
+import { MainContext } from "../Context";
 
 const CardContainer = styled.div`
     display: grid;
@@ -60,13 +61,14 @@ const Button = styled.button`
     }
 `
 
-
 const Products = ({ products }) => {
-    console.log(products)
+    const { addToCart,items } = useContext(MainContext);
+    localStorage.setItem("items",JSON.stringify(items));
+
     return (
         <CardContainer>
-            {products.map((product) => (
-                <Card>
+            {products.map((product,id) => (
+                <Card key={id}>
                     <Image src={product.strDrinkThumb} />
                     <CardBody>
                         <CardTitle>
@@ -77,7 +79,7 @@ const Products = ({ products }) => {
                         </CardContent>
                     </CardBody>
                     <BasketButton>
-                        <Button><FaPlusCircle style={{fontSize:"1.5rem"}}/></Button>
+                        <Button onClick={()=>addToCart(product.idDrink,product.strDrinkThumb,product.strDrink,product.strCategory)}><FaPlusCircle style={{ fontSize: "1.5rem" }} /></Button>
                     </BasketButton>
                 </Card>
             ))}
