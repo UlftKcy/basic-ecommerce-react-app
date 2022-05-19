@@ -9,6 +9,9 @@ const CardContainer = styled.div`
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 15px;
     grid-row-gap: 45px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
 `
 const Card = styled.div`
     width:220px;
