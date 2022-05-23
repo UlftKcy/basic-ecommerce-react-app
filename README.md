@@ -17,7 +17,6 @@
 - [Overview](#overview)
 - [Built With](#built-with)
 - [How to use](#how-to-use)
-- [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
 <!-- OVERVIEW -->
@@ -51,9 +50,6 @@ $ git clone https://github.com/UlftKcy/basic-ecommerce-react-app.git
 # Run the app
 $ npm start
 ```
-
-## Acknowledgements
-- API Url = "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita";
 
 ## Contact
 
