@@ -53,7 +53,7 @@ $ npm start
 ```
 
 ## Acknowledgements
-- Information for your projects
+- API Url = "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita";
 
 ## Contact
 
