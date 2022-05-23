@@ -25,14 +25,14 @@
 
 ## Overview
 
-
+Project aims to build a basic ecommerce react app using Context API
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - ReactJS
-- Context API
+- Context API (State Management)
 - Styled-Components
 - Axios
 
@@ -45,6 +45,7 @@ To clone and run this application, you'll need [Git]([https://git-scm.com](https
 ```bash
 # Clone this repository
 $ git clone https://github.com/UlftKcy/basic-ecommerce-react-app.git
+
 # Install dependencies
     $ npm install
 
