@@ -25,7 +25,7 @@
 
 ## Overview
 
-![registerdjango](https://user-images.githubusercontent.com/80036968/138127638-fc4c2be0-ff4b-424a-b12d-c53d97ba9bfd.gif)
+
 
 ### Built With
 
