@@ -26,7 +26,7 @@ const Dashboard = () => {
             setProducts(products);
         }
         catch (error) {
-            console.log(error)
+            throw new Error('Something went wrong!',{cause:error});
         }
     }
     return (
