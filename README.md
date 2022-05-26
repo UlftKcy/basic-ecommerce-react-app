@@ -30,7 +30,7 @@ Project aims to build a basic ecommerce react app using Context API
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - ReactJS
-- Context API (State Management)
+- Context API
 - Styled-Components
 - Axios
 
